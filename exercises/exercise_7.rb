@@ -10,3 +10,6 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Please enter store name"
+@store_new = gets.chomp
+Store.create!(name: @store_new) #You will get validation error
